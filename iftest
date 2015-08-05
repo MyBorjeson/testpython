@@ -1,0 +1,6 @@
+# 
+apple = 5
+
+if apple > 3: print "Variable is too big"
+if apple < 7: print "Virable is too small"
+if apple > 

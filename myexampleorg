@@ -18,7 +18,7 @@ products = [Product(price=900,count=2,vat=1.25),Product(price=100,count=1,vat=1.
 total_price=0
 
 for totals in products:
-	total_price += totals.price_with_vat()
+	total_price += totals.price_with_vat() # += betyder lägg till
 
 print total_price
 
