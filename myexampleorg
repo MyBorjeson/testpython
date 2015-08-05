@@ -18,6 +18,7 @@ book.vat = 1.06
 print robot.price_with_vat()
 print book.price_with_vat()
 
+print robot.price_with_vat()+book.price_with_vat()
 
 # book = Product()
 # book.price = 100
